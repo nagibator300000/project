@@ -1,0 +1,9 @@
+@keyframes planet-moving{
+    from {transform: translateY(0px);}
+    to {transform: translateY(70px);}
+}
+
+@keyframes saturn-rotation{
+    from {transform: rotate(0deg);}
+    to  {transform: rotate(10deg);}
+}

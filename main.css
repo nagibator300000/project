@@ -1,0 +1,103 @@
+@import 'animation.css';
+@import 'about.css';
+@import 'normalize.css';
+@import 'fonts.css';
+
+#main{
+    background-image: url(bgMAIN.png);
+}
+
+#skills{
+    background-image: url(bgSKILLS.png);
+}
+#works{
+    background-image: url(bgWORKS.png);
+}
+#comments{
+    background-image: url(bgCOMMENTS.png);
+}
+
+section > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.main-block{
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+}
+
+/* [class$='-block']{
+    color: red;
+} */
+
+.main-content{
+    width: 850px;
+    height: 225px;
+    background-image: url('form1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 60px 40px 40px;
+    z-index: 1;
+}
+
+.main-title{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: 'Inter';
+    color: #2B2D35;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-subtitle{
+    text-transform: lowercase;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.button{
+    padding: 23px 26px;
+    background-color: #BBFF2C;
+    border-radius: 100px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-size: 20px;
+    box-shadow: 5px 5px 0 black;
+    
+}
+
+.button > a{
+    text-decoration: none;
+    color:black;
+}
+
+.moving-planet{
+    position: absolute;
+    bottom: 40px;
+    left:21px;
+    z-index: 0;
+    animation-name: planet-moving;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+.saturn{
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    z-index: 0;
+    animation: saturn-rotation 0.5s infinite linear;
+    animation-direction: alternate;
+}
+

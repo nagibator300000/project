@@ -1,0 +1,33 @@
+#about{
+    background-image: url(bgABOUT.png);
+    background-size: cover;
+}
+
+.about-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-title{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+}
+
+.about-self{
+    width: 850px;
+    height: 225px;
+    background-image: url('form1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 60px 40px 40px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+}
