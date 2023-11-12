@@ -29,9 +29,25 @@
     padding: 60px 40px 40px;
 }
 
-.about-content{
+.about-detailed{
+    background-color: #792AFF;
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+    font-family: 'Inter';
+    text-align: left;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-content: ;
+}
+
+
+.about-content{
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.about-par{
+    color: white;
 }
 
 .heart{
