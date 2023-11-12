@@ -89,7 +89,7 @@ section > div{
     animation-name: planet-moving;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
     animation-timing-function: linear;
 }
 .saturn{
@@ -101,3 +101,6 @@ section > div{
     animation-direction: alternate;
 }
 
+.maskot{
+    animation: maskot 1s linear;
+}

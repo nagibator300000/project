@@ -1,9 +1,58 @@
 @keyframes planet-moving{
-    from {transform: translateY(0px);}
-    to {transform: translateY(70px);}
+    from {
+        transform: translate(0px, 0px) rotate(0deg);
+        /* background-color: red; */
+    }
+
+    25% {
+        transform: translate(60px, 0px) rotate(90deg);
+        /* background-color: white; */
+    }
+
+    50% {
+        transform: translate(60px, 60px) rotate(180deg);
+        /* background-color: black; */
+    }
+
+    75%{
+        transform: translate(0px, 60px)rotate(270deg);
+        /* background-color: aqua; */
+    }
+
+    to {
+        transform: translate(0px, 0px) rotate(360deg);
+        /* background-color: purple; */
+    }
+}
+
+@keyframes planet-rotation{
+    from {transform: rotate(0deg)}
+    to {transform: rotate(360deg);}
 }
 
 @keyframes saturn-rotation{
     from {transform: rotate(0deg);}
     to  {transform: rotate(10deg);}
+}
+
+@keyframes maskot{
+    from{transform: translateY(100px);}
+    90% {transform: translateY(70px);}
+    to  {transform: translateY(0px);}
+}
+
+@keyframes heart{
+    from{transform: scale(1);}
+    10%{transform: scale(2);}
+    30%{transform: scale(2);}
+    40%{transform: scale(1);}
+    60%{transform: scale(1);}
+    70%{transform: scale(2);}
+    80%{transform: scale(1);}
+    90%{transform: scale(2);}
+}
+
+@keyframes coin{
+    from{transform: rotate3d(1,1,1,0deg);}
+    to{transform: rotate3d(0,1,0,360deg);}
 }
