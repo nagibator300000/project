@@ -2,6 +2,11 @@
     background-image: url(/images/bgCOMMENTS.png);
 }
 
+.comments-block{
+    display: flex;
+    flex-direction: column;
+}
+
 .comments-title{
     font-family: 'Inter';
     color: white;
@@ -10,6 +15,41 @@
     font-size: 80px; 
 }
 
-.comments-header{
-    
+.comments-content{
+    display: flex;
+    gap: 10px;
+    font-family: 'Inter';
+    align-items: center;
+    gap: 20px;
+}
+
+.comment{
+    background-color: #d2d0f7;
+    border-radius: 10px;
+}
+
+.comment-header{
+    padding:20px;
+}
+
+.comment-main{
+    padding: 0 20px 20px;
+}
+
+.comment-title{
+    text-transform: uppercase;
+    color: #2B2D35;
+}
+
+.comment-par{
+    color:#00000080;
+    font-weight: 400;
+}
+
+.comment-in{
+    background-image: url(/images/comment.png);
+    background-size: 100% 100%;
+    padding: 20px;
+    padding-left: 40px;
+    width: 200px;
 }
