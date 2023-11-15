@@ -1,23 +1,13 @@
-
-
 #main{
     background-image: url(bgMAIN.png);
 }
 
-
-#works{
-    background-image: url(bgWORKS.png);
-}
 #comments{
     background-image: url(bgCOMMENTS.png);
 }
 
-section > div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 70vh;
-}
+
+
 
 .main-block{
     flex-direction: column;

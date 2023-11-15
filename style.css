@@ -1,13 +1,23 @@
-@import 'animation.css';
+@import 'main.css';
 @import 'about.css';
+@import 'skills.css';
+@import 'works.css';
 @import 'normalize.css';
 @import 'fonts.css';
-@import 'skills.css';
-@import 'main.css';
+@import 'animation.css';
 
 html{
     font-weight: 700;
 }
+
+section > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+
 
 .button{
     padding: 23px 26px;

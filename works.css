@@ -1,0 +1,26 @@
+#works{
+    background-image: url(bgWORKS.png);
+}
+
+.works-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.works-title{
+    color: white;
+    font-size: 80px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+}
+
+.works-imgs{
+    display: flex;
+    gap:20px;
+}
+
+.works-img{
+    width:400px;
+    height: 275px;
+}
