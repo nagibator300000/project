@@ -1,0 +1,44 @@
+#skills{
+    background-image: url(bgSKILLS.png);
+}
+
+.skills-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-title{
+    font-family: 'Inter';
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+    font-size: 80px;    
+}
+
+.skills-content{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 0 black;
+}
+
+.skills-header{
+    padding: 10px;
+    background-color: #D4D4FE;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: solid;
+}
+
+.skills-main{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.skills-text{
+    font-family: 'Inter';
+    size:20px;
+    text-align: center;
+}

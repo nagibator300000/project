@@ -56,3 +56,8 @@
     from{transform: rotate3d(1,1,1,0deg);}
     to{transform: rotate3d(0,1,0,360deg);}
 }
+
+@keyframes me{
+    from{transform: rotate(-10deg);}
+    to{transform: rotate(10deg);}
+}

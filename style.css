@@ -1,0 +1,27 @@
+@import 'animation.css';
+@import 'about.css';
+@import 'normalize.css';
+@import 'fonts.css';
+@import 'skills.css';
+@import 'main.css';
+
+html{
+    font-weight: 700;
+}
+
+.button{
+    padding: 23px 26px;
+    background-color: #BBFF2C;
+    border-radius: 100px;
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-size: 20px;
+    box-shadow: 5px 5px 0 black;
+}
+
+.button > a{
+    text-decoration: none;
+    color:black;
+}
