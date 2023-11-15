@@ -1,10 +1,8 @@
 #main{
-    background-image: url(bgMAIN.png);
+    background-image: url(/images/bgMAIN.png);
 }
 
-#comments{
-    background-image: url(bgCOMMENTS.png);
-}
+
 
 
 
@@ -22,7 +20,7 @@
 .main-content{
     width: 850px;
     height: 225px;
-    background-image: url('form1.png');
+    background-image: url(/images/form1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

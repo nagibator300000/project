@@ -1,0 +1,15 @@
+#comments{
+    background-image: url(/images/bgCOMMENTS.png);
+}
+
+.comments-title{
+    font-family: 'Inter';
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 0 black;
+    font-size: 80px; 
+}
+
+.comments-header{
+    
+}
