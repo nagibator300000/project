@@ -1,14 +1,20 @@
+@import 'header.css';
 @import 'main.css';
 @import 'about.css';
 @import 'skills.css';
 @import 'works.css';
 @import 'comments.css';
+@import 'footer.css';
 @import 'normalize.css';
 @import 'fonts.css';
 @import 'animation.css';
 
 html{
     font-weight: 700;
+}
+
+*{
+    scroll-behavior: smooth;
 }
 
 section > div{
@@ -18,7 +24,10 @@ section > div{
     min-height: 70vh;
 }
 
-
+h1{
+    margin: 0;
+    padding: 0;
+}
 
 .button{
     padding: 23px 26px;

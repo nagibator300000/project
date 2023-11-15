@@ -1,0 +1,13 @@
+.footer{
+    background-color: #200153;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+    color: white;
+    font-weight: 400;
+    padding: 40px 60px;
+}
+
+.solid{
+    font-weight: 700;
+}

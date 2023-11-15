@@ -66,8 +66,10 @@
     z-index: 0;
     animation: saturn-rotation 0.5s infinite linear;
     animation-direction: alternate;
+    z-index: 0;
 }
 
 .maskot{
     animation: maskot 1s linear;
+    z-index: 1;
 }
