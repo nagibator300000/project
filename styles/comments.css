@@ -26,6 +26,7 @@
 .comment{
     background-color: #d2d0f7;
     border-radius: 10px;
+    box-shadow: 5px 5px 0 black;
 }
 
 .comment-header{

@@ -1,0 +1,9 @@
+.skills-title{
+    font-size: 30px;
+    padding-bottom: 64px;
+}
+
+.skills-content .button{
+    position: absolute;
+    bottom: 90px;
+}

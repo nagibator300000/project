@@ -1,0 +1,35 @@
+.moving-planet{
+    animation-name: none;
+}
+
+.saturn{
+    display: none;
+}
+
+.main-title{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.main-subtitle{
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.maskot{
+    animation-name: none;
+}
+
+.main-content{
+    width:500px;
+    background-position: top;
+    background-size: contain;
+}
+
+.main-header{
+    padding: 10px;
+}
+
+.main-main{
+    padding: 10px;
+}

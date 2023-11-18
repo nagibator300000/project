@@ -5,6 +5,7 @@
 .skills-block{
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .skills-title{

@@ -9,6 +9,9 @@
 @import 'fonts.css';
 @import 'animation.css';
 
+@import '/styles/mobile/styles.css'(max-width:1000px);
+
+
 html{
     font-weight: 700;
 }
@@ -21,7 +24,7 @@ section > div{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    height: 100vh;
 }
 
 h1{

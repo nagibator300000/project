@@ -1,0 +1,13 @@
+.works-imgs{
+    flex-direction: column;
+}
+
+.works-img{
+    height: 200px;
+    width: 300px;
+}
+
+.works-title{
+    font-size: 30px;
+    padding-bottom: 40px;
+}

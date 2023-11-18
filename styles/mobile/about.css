@@ -1,0 +1,23 @@
+.coin{
+    display: none;
+}
+
+.heart{
+    display: none;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column-reverse;
+    gap:35px;
+}
+
+.about-title{
+    font-size: 30px;
+    padding:  57px;
+}
+
+.about-detailed{
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 0 black;
+}

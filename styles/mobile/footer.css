@@ -1,0 +1,15 @@
+.footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 80px;
+    height: 13vh;
+}
+
+.solid{
+    text-align: center;
+}
+
+.footer > div:nth-child(2){
+    order:1
+}
