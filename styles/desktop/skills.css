@@ -1,11 +1,11 @@
 #skills{
     background-image: url(/images/bgSKILLS.png);
+    position: relative;
 }
 
 .skills-block{
     display: flex;
     flex-direction: column;
-    position: relative;
 }
 
 .skills-title{

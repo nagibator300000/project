@@ -37,3 +37,7 @@
     color: white;
     background-color: #792AFF;
 }
+
+.mobile-button{
+    display: none;
+}

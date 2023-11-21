@@ -1,16 +1,11 @@
-@import 'header.css';
-@import 'main.css';
-@import 'about.css';
-@import 'skills.css';
-@import 'works.css';
-@import 'comments.css';
-@import 'footer.css';
-@import 'normalize.css';
-@import 'fonts.css';
-@import 'animation.css';
-
+@import '/styles/desktop/style.css';
 @import '/styles/mobile/styles.css'(max-width:1000px);
 
+.hide{
+    /* display: none; */
+    top:-100vh
+
+}
 
 html{
     font-weight: 700;
@@ -20,11 +15,14 @@ html{
     scroll-behavior: smooth;
 }
 
+section{
+    height: 100vh;
+}
+
 section > div{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 h1{

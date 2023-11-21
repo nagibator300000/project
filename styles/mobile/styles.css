@@ -6,6 +6,10 @@
 @import 'comments.css';
 @import 'footer.css';
 
+.section{
+    min-height: 100vh;
+}
+
 .buttons,.buttons::after,.buttons::before{
     height: 10px;
     width: 10px;
@@ -22,3 +26,4 @@
 .buttons::after{
     right: -14px;
 }
+

@@ -29,3 +29,29 @@ window.addEventListener('scroll', () => {
     }
     button.classList.add('nav-link_active');
 });
+
+const burger_button=document.querySelector('.mobile-button');
+const burger_button_img=burger_button.querySelector('img')
+const mobile_menu=document.querySelector('.mobile-nav')
+const mobile_buttons=document.querySelectorAll('.mobile-nav .nav-link')
+
+burger_button.onclick=()=>{
+    if (burger_button.getAttribute('clicked')==='false'){
+        burger_button_img.setAttribute('src','/images/close_menu.png')
+        burger_button.setAttribute('clicked','true')
+        mobile_menu.classList.remove('hide')
+    }
+    else if(burger_button.getAttribute('clicked')==='true'){
+        burger_button_img.setAttribute('src','/images/mobile_menu.png')
+        burger_button.setAttribute('clicked','false')
+        mobile_menu.classList.add('hide')
+    }
+}
+
+mobile_menu.addEventListener('click',(event)=>{
+    if (event.target===mobile_menu) return;
+    console.log(1)
+    burger_button_img.setAttribute('src','/images/mobile_menu.png');
+    burger_button.setAttribute('clicked','false');
+    mobile_menu.classList.add('hide');
+})

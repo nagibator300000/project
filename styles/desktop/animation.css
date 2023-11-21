@@ -61,3 +61,23 @@
     from{transform: rotate(-10deg);}
     to{transform: rotate(10deg);}
 }
+
+@keyframes menu{
+    from{
+        transform: translateY(-100vh);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes menu-close{
+    from{
+        transform: translateY(-100vh);
+    }
+    to{
+        transform: translateY(0);
+        display: none;
+    }
+    
+}
