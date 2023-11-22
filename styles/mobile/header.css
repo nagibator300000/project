@@ -19,14 +19,14 @@
 
 
 .mobile-nav{
-    transition: top 0.5s ease-in;
+    transition: transform 0.5s ease-in;
     position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    top:0;   
+    transform:translateY(50%);   
     background-color: #200153;
     left: 0;
     justify-content: center;

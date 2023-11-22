@@ -27,3 +27,10 @@
     right: -14px;
 }
 
+.menu-open{
+    overflow: hidden;
+}
+
+.hide{
+    transform: translateY(-100%);
+}

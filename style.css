@@ -1,11 +1,7 @@
 @import '/styles/desktop/style.css';
 @import '/styles/mobile/styles.css'(max-width:1000px);
 
-.hide{
-    /* display: none; */
-    top:-100vh
 
-}
 
 html{
     font-weight: 700;
