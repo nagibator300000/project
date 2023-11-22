@@ -11,9 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-section{
-    height: 100vh;
-}
+
 
 section > div{
     display: flex;

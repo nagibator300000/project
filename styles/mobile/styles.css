@@ -6,7 +6,8 @@
 @import 'comments.css';
 @import 'footer.css';
 
-.section{
+section{
+    height: auto;
     min-height: 100vh;
 }
 

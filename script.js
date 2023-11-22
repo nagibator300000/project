@@ -9,7 +9,7 @@ const h=document.documentElement.clientHeight;
     // button=event.target;
     // button.classList.add('nav-link_active');
 // })
-
+console.log(h)
 window.addEventListener('scroll', () => {
     button.classList.remove('nav-link_active');
     if (scrollY <= h){
@@ -27,8 +27,13 @@ window.addEventListener('scroll', () => {
     else if (scrollY<=h*5){
         button=buttons[4]
     }
+    console.log(scrollY)
+    
     button.classList.add('nav-link_active');
 });
+
+
+
 
 const burger_button=document.querySelector('.mobile-button');
 const burger_button_img=burger_button.querySelector('img');
