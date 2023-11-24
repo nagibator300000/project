@@ -9,6 +9,7 @@
 section{
     height: auto;
     min-height: 100vh;
+    padding-bottom: 10px;
 }
 
 .buttons,.buttons::after,.buttons::before{
