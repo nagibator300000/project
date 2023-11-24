@@ -2,7 +2,26 @@
 @import 'styles/mobile/styles.css'(max-width:1000px);
 @import 'fonts/fonts.css';
 
+#main{
+    background-image: url(images/bgMAIN.png);
+}
 
+#about{
+    background-image: url(images/bgABOUT.png);
+    background-size: cover;
+}
+
+#skills{
+    background-image: url(images/bgSKILLS.png);
+}
+
+#works{
+    background-image: url(images/bgWORKS.png);
+}
+
+#comments{
+    background-image: url(images/bgCOMMENTS.png);
+}
 
 html{
     font-weight: 700;
@@ -11,8 +30,6 @@ html{
 *{
     scroll-behavior: smooth;
 }
-
-
 
 section > div{
     display: flex;
