@@ -43,13 +43,13 @@ const body=document.querySelector('body');
 
 burger_button.onclick=()=>{
     if (burger_button.getAttribute('clicked')==='false'){
-        burger_button_img.setAttribute('src','/images/close_menu.png')
+        burger_button_img.setAttribute('src','images/close_menu.png')
         burger_button.setAttribute('clicked','true')
         mobile_menu.classList.remove('hide')
         body.classList.add('menu-open')
     }
     else if(burger_button.getAttribute('clicked')==='true'){
-        burger_button_img.setAttribute('src','/images/mobile_menu.png')
+        burger_button_img.setAttribute('src','images/mobile_menu.png')
         burger_button.setAttribute('clicked','false')
         mobile_menu.classList.add('hide')
         body.classList.remove('menu-open')
