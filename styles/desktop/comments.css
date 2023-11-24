@@ -1,5 +1,5 @@
 #comments{
-    background-image: url(/images/bgCOMMENTS.png);
+    background-image: url(images/bgCOMMENTS.png);
 }
 
 .comments-block{
@@ -48,7 +48,7 @@
 }
 
 .comment-in{
-    background-image: url(/images/comment.png);
+    background-image: url(images/comment.png);
     background-size: 100% 100%;
     padding: 20px;
     padding-left: 40px;

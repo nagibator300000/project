@@ -1,5 +1,6 @@
-@import '/styles/desktop/style.css';
-@import '/styles/mobile/styles.css'(max-width:1000px);
+@import 'styles/desktop/style.css';
+@import 'styles/mobile/styles.css'(max-width:1000px);
+@import 'fonts/fonts.css';
 
 
 
